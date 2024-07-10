@@ -1,0 +1,526 @@
+
+
+
+
+
+@media screen and (max-width: 1367px) {
+	
+}
+
+@media screen and (max-width: 1300px){
+	
+}
+
+
+/* стили для md-устройств */
+@media screen and (max-width: 1200px) {
+	
+}	
+
+
+@media screen and (max-width: 1050px) {
+	
+
+  
+}
+
+
+/* стили для sm-устройств */
+@media screen and (max-width: 1024px) {
+	.product_inner_block2 {
+	    width: 83%;
+	}
+
+	.product_inner_block {
+	    width: 17%;
+	}
+
+	.highslide {
+	    display: flex;
+	    align-items: center;
+	    justify-content: center;
+	    height: 430px;
+	}
+  
+}
+
+/* стили для sm-устройств */
+@media screen and (max-width: 992px) {
+	
+}
+
+
+@media screen and (max-width: 900px) {
+	
+	.product_wrap {
+		margin: 0 0 0 0;
+		height: auto;
+	}
+
+	.product_block {
+		width: 100%;
+
+	}
+
+	.product_block {
+		padding: 0;
+		width: 100%;
+		overflow: unset;
+	}
+
+	.product_block2 {
+		display: none;
+	}
+
+	.product_mobile {
+		display: block;
+		padding: 20px 0 0 0;
+	}
+
+	.highslide {
+		height: 540px;
+		width: 540px;
+		margin: 0 auto;
+	}
+
+	.product_padding {
+		padding: 0;
+	}
+
+	.product_s_img img {
+		width: 100%;
+	}
+
+}
+
+
+/* Ipad*/ 
+@media screen and (max-width: 768px) {
+	.product_title {
+	    font-family: 'Evolventa-Bold';
+	    font-size: 26px;
+	    line-height: 28px;
+	    color: #272321;
+	}
+}
+
+
+/* Ipad mini*/ 
+@media screen and (max-width: 640px) {
+	
+	.highslide {
+		width: 100%;
+		height: 450px;
+	}
+
+}
+
+@media screen and (max-width: 575px) {
+  	.product_inner_block {
+  		display: none;
+  	}
+
+  	.product_inner_block2 {
+  		width: auto;
+  		margin: 0 -20px;
+  	}
+
+  	.product_inner {
+  		display: block;
+  	}
+
+  	.highslide {
+  		overflow: hidden;
+  	}
+
+  	.seeds_li a {
+	    font-size: 12px;
+	    line-height: 15.28px;
+	    color: #000;
+	    display: flex;
+	}
+
+	.seeds_li p {
+	    font-size: 12px;
+	    line-height: 15.28px;
+	    color: #000;
+	}
+
+	.seeds_li:before {
+		width: 8px;
+		height: 12px;
+		background-size: 8px 12px;
+		top: 6px;
+	}
+
+	.seeds_li {
+	    position: relative;
+	    padding: 6px 20px 0 0;
+	}
+
+	.seeds_li a img {
+		width: 14px;
+	}
+
+	.product_suptitle {
+	    font-family: 'Evolventa-Bold';
+	    font-size: 16px;
+	    line-height: 21.6px;
+	    color: #000;
+	}
+
+	.product_pd {
+	    padding: 10px 0 0 0;
+	}
+
+	.product_flex {
+		padding: 10px 0 0 0;
+		flex-wrap: wrap;
+	}
+
+	.product_flex_block {
+		margin: 0;
+		width: 100%;
+	}
+
+	.product_flex_block_order2 {
+		order: 1;
+		display: flex;
+		align-items: center;
+	}
+
+	.product_flex_block_order {
+		order: 2;
+		padding: 10px 0 0 0;
+	}
+
+	.product_color_ul {
+		padding: 0 0 0 10px;
+	}
+
+	.product_number {
+		width: 124px;
+	}
+
+	.product_price {
+	    padding: 24px 0 0 0;
+	    font-family: 'Evolventa-Bold';
+	    font-size: 50px;
+	    line-height: 56.67px;
+	    color: #272321;
+	}
+
+	.product_select_title {
+	    font-family: 'Evolventa-Bold';
+	    font-size: 14px;
+	    line-height: 18.28px;
+	    color: #272321;
+	}
+
+	.dropdown__header .dropdown__title {
+	    display: -webkit-box;
+	    /* vertical-align: middle; */
+	    font-size: 14px;
+	    line-height: 18.6px;
+	    color: #272321;
+	    -webkit-line-clamp: 1;
+	    -webkit-box-orient: vertical;
+	    overflow: hidden;
+	}
+
+	.dropdown__header {
+	    margin: 0 0 0 0;
+	    height: 35px;
+	    position: relative;
+	    display: flex;
+	    align-items: center;
+	    width: 100%;
+	    padding: 0 20px 0 20px;
+	    background-color: none;
+	    border-radius: 50px;
+	    border: 1px solid #272321;
+	    box-sizing: border-box;
+	}
+
+	.dropdown__header:before {
+	    position: absolute;
+	    content: '';
+	    background: url(../images/dropdown__header.svg) 0 0 no-repeat;
+	    width: 14px;
+	    height: 7px;
+	    top: 14px;
+	    right: 20px;
+	}
+
+	.list__link, .list__link:visited {
+	    display: flex;
+	    align-items: center;
+	    padding: 10px 20px;
+	    border-radius: 10px;
+	    font-size: 14px;
+	    line-height: 18.6px;
+	    color: #272321;
+	}
+
+	.product_bottom_link {
+	    padding: 10px 10px;
+	    display: flex;
+	    align-items: center;
+	    justify-content: center;
+	    width: 35px;
+	    height: 35px;
+	    border-radius: 50%;
+	    background: #272321;
+	    border: 1px solid #272321;
+	}
+
+	.product_bottom_button {
+	    font-size: 14px;
+	    line-height: 18.6px;
+	    color: #fff;
+	    text-transform: uppercase;
+	    padding: 7px 24px;
+	    border: 1px solid #272321;
+	    background: #272321;
+	    border-radius: 50px;
+	}
+
+	.product_bottom_ln a {
+	    font-size: 12px;
+	    line-height: 15px;
+	    text-align: center;
+	    display: inline-block;
+	    color: #272321;
+	    border-bottom: 1px solid #272321;
+	}
+
+	.product_t {
+	    padding: 7px 0 0 0;
+	}
+
+	.product_t_tabs {
+	    margin: 0px -8px;
+	}
+
+	ul.tabs li {
+	    margin: 13px 8px 0 8px;
+	    cursor: pointer;
+	    padding: 0px 0 0 0;
+	    font-family: 'Evolventa-Bold';
+	    font-size: 10px;
+	    line-height: 13.94px;
+	    color: #272321;
+	    position: relative;
+	    width: 105px;
+	    text-align: center;
+	}
+
+	.product_t_tabs_content {
+	    padding: 27px 0 0 0;
+	}
+
+	.product_t_tabs_border {
+	    box-shadow: 0px 0px 20px 0px #00000040;
+	    background: #F5F5F5;
+	    border-radius: 20px;
+	    padding: 20px 10px;
+	}
+
+	.product_t_tabs_title {
+	    font-family: 'Evolventa-Bold';
+	    font-size: 26px;
+	    line-height: 34.22px;
+	    text-align: center;
+	    color: #272321;
+	}
+
+	.product_t_tabs_suptitle {
+	    font-family: 'Evolventa-Bold';
+	    font-size: 16px;
+	    line-height: 18.26px;
+	    color: #272321;
+	}
+
+	.link_title {
+	    font-family: 'Evolventa-Bold';
+	    font-size: 16px;
+	    line-height: 18.26px;
+	    color: #272321;
+	    width: 60%;
+	}
+
+	.accordion_border_title {
+	    font-size: 12px;
+	    line-height: 15.62px;
+	    color: #fff;
+	}
+
+	.product_s_title {
+	    font-family: 'Evolventa-Bold';
+	    font-size: 26px;
+	    line-height: 28.22px;
+	    color: #272321;
+	}
+
+	ul.tabs2 li {
+	    font-size: 10px;
+	    line-height: 17px;
+	}
+
+	.product_s_absolute {
+	    opacity: 0;
+	    position: absolute;
+	    width: 100%;
+	    padding: 0 20px;
+	    bottom: 20px;
+	    left: 0;
+	    display: flex;
+	    align-items: flex-end;
+	    justify-content: space-between;
+	}
+
+	.product_s_text {
+		width: 85%;
+		margin: 0 0 0 10px;
+		text-align: right;
+		order: 2;
+	}
+
+	.product_s_link {
+		width: 30px;
+		height: 30px;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		padding: 0;
+		margin: 0;
+		order: 1;
+	}
+
+	.product_s_link p {
+		display: none;
+	}
+
+	.product_s_link svg {
+		display: block;
+	}
+
+	.product_s_suptitle {
+	    font-family: 'Evolventa-Bold';
+	    font-size: 10px;
+	    line-height: 13.26px;
+	    color: #fff;
+	}
+
+	.product_s_price {
+		padding: 10px 0 0 0;
+	    font-family: 'Evolventa-Bold';
+	    font-size: 14px;
+	    line-height: 15.2px;
+	    color: #fff;
+	}
+
+	.product_s_sl .slick-dots {
+		padding: 0 0 0 15px !important;
+	}
+
+	.product_s_sl .slick-dots li {
+		width: 100% !important;
+	}
+
+	.product_nav {
+		display: none;
+	}
+
+	.product_s_sl .slick-slide {
+		margin: 20px 10px 20px 10px !important;
+	}
+
+	.product_s_slayder {
+	    margin: 0 -0 0 -10px;
+	}
+
+	.modal-border {
+		margin: 50px 10px 0 10px;
+	}
+}
+
+/* Galaxy S8+*/ 
+@media screen and (max-width: 480px) {
+  	.link_title {
+        font-family: 'Evolventa-Bold';
+        font-size: 14px;
+        line-height: 16.26px;
+        color: #272321;
+        width: 50%;
+    }
+
+    .modal-border {
+    	padding: 20px 15px;
+    }
+
+    .modal-close-button {
+	    z-index: 1;
+	    position: absolute;
+	    top: 17px;
+	    right: 10px;
+	}
+
+	.modal_link_icon {
+	    background: #F5F5F5;
+	    width: 45px;
+	    height: 45px;
+	    border-radius: 50%;
+	    display: flex;
+	    align-items: center;
+	    justify-content: center;
+	}
+
+	.modal_link a {
+	    display: block;
+	    text-align: center;
+	    font-size: 10px;
+	    line-height: 12px;
+	    color: #272321;
+	}
+
+	.modal_wrap {
+	    display: flex;
+	    justify-content: space-between;
+	    padding: 30px 0 0 0;
+	}
+
+	.modal_suptitle {
+	    padding: 24px 0 0 0;
+	    font-family: 'Evolventa-Bold';
+	    font-size: 12px;
+	    line-height: 15px;
+	    text-align: center;
+	    color: #272321;
+	}
+}
+
+/* Galaxy*/ 
+@media screen and (max-width: 415px) {
+  	.highslide {
+  		height: 350px;
+  	}
+
+  	.product_s_text {
+        width: 75%;
+        margin: 0 0 0 5px;
+        text-align: right;
+        order: 2;
+    }
+}
+
+
+/* Iphone 6.7.8 */ 
+@media screen and (max-width: 375px) {
+	
+}
+
+/* Iphone 5.5SE */ 
+@media screen and (max-width: 320px) {
+	
+}
